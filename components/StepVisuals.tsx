@@ -3,7 +3,7 @@ import { Settings, Users, Plus, Check, User, ChevronRight, BarChart3, Home, Layo
 
 // Common mock window wrapper
 const MockWindow: React.FC<{ children: React.ReactNode; title?: string }> = ({ children, title = "Google Analytics" }) => (
-  <div className="w-full max-w-md mx-auto bg-white rounded-xl shadow-xl overflow-hidden border border-slate-200 flex flex-col h-64 md:h-80 transition-all duration-500">
+  <div className="w-full max-w-xl mx-auto bg-white rounded-xl shadow-xl overflow-hidden border border-slate-200 flex flex-col h-64 md:h-80 transition-all duration-500">
     <div className="bg-slate-100 border-b border-slate-200 px-3 py-2 flex items-center space-x-2">
       <div className="flex space-x-1">
         <div className="w-2.5 h-2.5 rounded-full bg-red-400"></div>

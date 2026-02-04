@@ -11,3 +11,12 @@ export interface Message {
   role: 'user' | 'model';
   text: string;
 }
+
+export interface SiteEntry {
+  website: string;
+  gaPropertyCreated: boolean;
+  gaId: string;
+  notes: string;
+  createdBy: string;
+  date: string;
+}
